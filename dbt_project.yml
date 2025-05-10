@@ -64,8 +64,6 @@ models:
           # This defaults every model in the marts/core directory to be materialized as a table in Snowflake
           +schema: "gold"
           query_tag: dbt_marts   
-<<<<<<< HEAD
-          # This applies a query tag named `dbt_marts` to any related queries in Snowflake's Query_History 
 
   ## Elementary data quality monitoring configuration
   ## see docs: https://docs.elementary-data.com/
@@ -76,6 +74,3 @@ models:
   flags:
     require_explicit_package_overrides_for_builtin_materializations: False
     source_freshness_run_project_hooks: True      
-=======
-          # This applies a query tag named `dbt_marts` to any related queries in Snowflake's Query_History    
->>>>>>> 6b602f80ecf74f5614c5d998620c4f20efab74da
